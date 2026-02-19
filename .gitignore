@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Saved models and large data
+models/*.joblib
+models/*.pkl
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+*.joblib
+*.pkl
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Flask
+instance/
+.webassets-cache
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Keep directory structure
+!data/.gitkeep
+!models/.gitkeep

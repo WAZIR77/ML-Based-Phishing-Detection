@@ -1,0 +1,20 @@
+{
+  "logistic_regression": {
+    "cv_accuracy_mean": 0.9928592624430775,
+    "cv_recall_mean": 0.9853261638727794,
+    "cv_precision_mean": 0.9979682417164433,
+    "cv_f1_mean": 0.9916068355905067
+  },
+  "random_forest": {
+    "cv_accuracy_mean": 0.9955151727513943,
+    "cv_recall_mean": 0.9907870639426347,
+    "cv_precision_mean": 0.9987267942543501,
+    "cv_f1_mean": 0.994741066595038,
+    "best_params": {
+      "n_estimators": 100,
+      "max_depth": 20,
+      "min_samples_leaf": 2
+    }
+  },
+  "chosen_model": "random_forest"
+}
